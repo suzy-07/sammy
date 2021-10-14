@@ -1,0 +1,46 @@
+.header{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: burlywood;
+    text-align: center;
+}
+.sub-header{
+    display: flex
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 248, 220);
+    background-color: rgba(44, 44, 39, 0.671);
+}
+
+a {
+    text-decoration: none;
+    background-color: rgba(255, 166, 0, 0.336);
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(89, 42, 165);
+    font-weight: bold;
+}
+
+.products {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.item{
+    margin: 30px;
+}
+.footer {
+    display: flex;
+    background-color: rgb(220, 100, 20);
+    justify-content: space-between;
+    padding: 50px;
+}
